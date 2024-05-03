@@ -19,7 +19,7 @@
           <Badge color="dark-success" :data-testid="$testId.statusBadge">
             <template #default>
               {{ te(`batches.status.${item.status}`) ? t(`batches.status.${item.status}`) : item.status
-              }}<component :is="getBadgeIconByStatus(item.status)" />
+              }}<span class="icon"><component :is="getBadgeIconByStatus(item.status)" /></span>
             </template>
           </Badge>
         </div>
@@ -144,6 +144,10 @@ function getBadgeIconByStatus(status: BatchListItem["status"]) {
   }
   .badge-container.type-label {
     @apply pr-2 normal-case	normal-case;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
   }
 }
 </style>
