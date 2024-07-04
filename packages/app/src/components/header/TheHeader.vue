@@ -48,13 +48,13 @@
         </div>
       </div>
     </div>
-    <div
+    <!-- <div
       v-if="hasContent"
       class="hero-banner-container"
       :class="[`${currentNetwork.name}`, { 'home-banner': route.path === '/' }]"
     >
       <hero-arrows class="hero-image" />
-    </div>
+    </div> -->
     <transition
       enter-active-class="duration-200 ease-out"
       enter-from-class="scale-95 opacity-0"

@@ -81,13 +81,13 @@ getBatches(1, new Date());
 
 <style lang="scss" scoped>
 .home {
-  @apply mt-4;
+  @apply mt-8 sm:mt-16;
 
   .title {
-    @apply text-4xl font-bold text-white;
+    @apply text-4xl font-bold text-primary-800 text-center;
   }
   .subtitle {
-    @apply mt-2 text-base text-white sm:text-2xl;
+    @apply mt-8 text-base sm:text-xl text-center max-w-4xl mx-auto w-full;
   }
 
   .section {
@@ -98,7 +98,7 @@ getBatches(1, new Date());
   }
 
   .search-form {
-    @apply mt-6 max-w-xl sm:mt-14 lg:mt-9;
+    @apply mt-6 max-w-xl mx-auto w-full sm:mt-14 lg:mt-9;
   }
 
   .latest-blocks-transactions {
