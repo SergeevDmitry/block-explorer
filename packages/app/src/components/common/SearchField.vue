@@ -77,16 +77,16 @@ const model = computed({
 .search-input-container {
   @apply relative;
   .search-input {
-    @apply block w-full truncate rounded-md border-2 border-gray-200 py-3.5 pl-4 pr-16 leading-5 text-neutral-700 placeholder-neutral-400 placeholder:text-sm focus:border-primary-500 disabled:cursor-not-allowed disabled:opacity-50 sm:text-sm transition-colors duration-200 outline-none ring-0;
+    @apply block w-full truncate rounded-md border-2 border-gray-200 py-3 pl-4 pr-16 leading-5 text-neutral-700 placeholder-neutral-400 placeholder:text-sm focus:border-primary-500 disabled:cursor-not-allowed disabled:opacity-50 sm:text-sm transition-colors duration-200 outline-none ring-0;
   }
   .has-error {
     @apply border-red-400/60 focus:border-red-500;
   }
 }
 .submit-icon-container {
-  @apply absolute right-0 top-0 aspect-square flex items-center h-full justify-center p-1;
+  @apply absolute right-0 top-0 aspect-square flex items-center h-full justify-center;
 }
 .spinner-container {
-  @apply absolute inset-y-0 right-0 flex py-2.5 pr-2.5;
+  @apply absolute right-0 top-0 aspect-square flex items-center h-full justify-center;
 }
 </style>

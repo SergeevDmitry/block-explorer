@@ -309,8 +309,8 @@
     "subtitle": "zkRollups significantly cheaper than L1 or Optimistic Rollups"
   },
   "blockExplorer": {
-    "title": "zkSync Era Block Explorer",
-    "subtitle": "zkSync Era Block Explorer provides all the information to deep dive into transactions, blocks, contracts, and much more. Deep dive into zkSync Era and explore the network.",
+    "title": "zkSync Stratis Block Explorer",
+    "subtitle": "zkSync Stratis Block Explorer provides all the information to deep dive into transactions, blocks, contracts, and much more. Deep dive into zkSync Stratis and explore the network.",
     "latestBlocks": "Latest Blocks",
     "latestTransactions": "Latest Transactions",
     "batches": "Latest Batches"

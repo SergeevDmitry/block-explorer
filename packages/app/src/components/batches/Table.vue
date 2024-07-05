@@ -13,8 +13,8 @@
         </TableBodyColumn>
       </tr>
     </template>
-    <template #table-row="{ item }: { item: any }">
-      <TableBodyColumn v-if="columns.includes('status')" :data-heading="t('batches.table.status')">
+    <template #table-row="{ item }: { item: any }"
+      ><TableBodyColumn v-if="columns.includes('status')" :data-heading="t('batches.table.status')">
         <div class="status-badge-container">
           <Badge color="dark-success" :data-testid="$testId.statusBadge">
             <template #default>
