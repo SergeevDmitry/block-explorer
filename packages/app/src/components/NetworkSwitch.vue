@@ -106,7 +106,7 @@ const getNetworkUrl = (network: NetworkConfig) => {
   .network-item {
     @apply mr-4 flex items-center gap-2;
     .network-item-img {
-      @apply h-4 w-4 flex-shrink-0;
+      @apply h-5 w-5 flex-shrink-0;
     }
     .network-item-label {
       @apply block truncate text-sm;
