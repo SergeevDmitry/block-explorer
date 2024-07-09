@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-primary-900 pt-8 -mt-8">
+  <footer>
     <div class="footer-container">
       <div class="links-container z-10">
         <a v-for="item in navigation" :key="item.label" :href="item.url" target="_blank" rel="noopener">
