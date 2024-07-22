@@ -76,11 +76,11 @@ const getNetworkUrl = (network: NetworkConfig) => {
     @apply absolute right-0 top-full h-auto w-full lg:w-[260px];
   }
   .network-list {
-    @apply absolute right-0 top-1 z-10 mb-1 max-h-56 w-full overflow-auto rounded-md border-t-4 p-4 border-primary-800 bg-white text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm gap-1 flex flex-col;
+    @apply absolute right-0 top-1 z-10 mb-1 flex max-h-56 w-full flex-col gap-1 overflow-auto rounded-md border-t-4 border-primary-800 bg-white p-4 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm;
   }
 
   .network-list-item-container {
-    @apply flex items-center gap-2 p-3 text-neutral-900 rounded;
+    @apply flex items-center gap-2 rounded p-3 text-neutral-900;
     &:not(.selected) {
       cursor: pointer;
     }

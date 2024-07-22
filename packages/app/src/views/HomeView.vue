@@ -86,10 +86,10 @@ getBatches(1, new Date());
   @apply mt-8 sm:mt-16;
 
   .title {
-    @apply text-4xl font-bold text-purple-900 text-center;
+    @apply text-center text-4xl font-bold text-purple-900;
   }
   .subtitle {
-    @apply mt-8 text-base sm:text-xl text-center max-w-4xl mx-auto w-full;
+    @apply mx-auto mt-8 w-full max-w-4xl text-center text-base sm:text-xl;
   }
 
   .section {
@@ -100,7 +100,7 @@ getBatches(1, new Date());
   }
 
   .search-form {
-    @apply mt-6 max-w-xl mx-auto w-full sm:mt-14 lg:mt-9;
+    @apply mx-auto mt-6 w-full max-w-xl sm:mt-14 lg:mt-9;
   }
 
   .latest-blocks-transactions {
@@ -118,7 +118,7 @@ getBatches(1, new Date());
       @apply h-full;
     }
     .batches-label-container {
-      @apply flex items-center gap-x-1 text-xl font-bold mb-2;
+      @apply mb-2 flex items-center gap-x-1 text-xl font-bold;
     }
   }
 

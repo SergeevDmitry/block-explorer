@@ -239,7 +239,7 @@ const hasContent = computed(() => {
   .burger-button-container {
     @apply -my-2 -mr-2 lg:hidden;
     .burger-button {
-      @apply inline-flex items-center justify-center rounded-md border border-neutral-400 p-2 text-neutral-400 hover:bg-neutral-100 hover:text-neutral-500 outline-none;
+      @apply inline-flex items-center justify-center rounded-md border border-neutral-400 p-2 text-neutral-400 outline-none hover:bg-neutral-100 hover:text-neutral-500;
     }
   }
   .navigation-container {

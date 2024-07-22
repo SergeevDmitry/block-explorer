@@ -60,7 +60,7 @@ defineProps({
     @apply w-full overflow-auto;
 
     & > table > thead tr {
-      @apply hidden md:table-row md:relative md:left-0 md:top-0;
+      @apply hidden md:relative md:left-0 md:top-0 md:table-row;
     }
   }
   &.has-head {

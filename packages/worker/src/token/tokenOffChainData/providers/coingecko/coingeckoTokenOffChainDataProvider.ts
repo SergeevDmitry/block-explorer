@@ -165,9 +165,7 @@ export class CoingeckoTokenOffChainDataProvider implements TokenOffChainDataProv
         ? {
             x_cg_pro_api_key: this.apiKey,
           }
-        : {
-            x_cg_demo_api_key: this.apiKey,
-          }),
+        : {}),
     }).toString();
 
     const { data } = await firstValueFrom<{ data: T }>(
